@@ -1,0 +1,20 @@
+/* Our CSS file. ok*/
+
+
+.container, .content {
+width: 100%;
+}
+.content{
+    display: inline-block;
+}
+.section{
+    width: 49%;
+    display: inline-block;
+}
+.list{
+    vertical-align: top;
+    color: blue;
+}
+.h1{
+    color: red;
+}
