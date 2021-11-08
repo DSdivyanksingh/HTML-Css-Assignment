@@ -1,0 +1,109 @@
+/* Our CSS file. */
+
+.container, .content {
+width: 100%;
+}
+/* header_style */
+.header{
+    border: 2px solid black;
+    height: 100px;
+    background-color: gray;
+    
+}
+
+.header_logo{
+    margin:20px 0px 0px 15px ;
+    float: left;
+    width: 84%;
+}
+
+.header_form1{
+
+    margin-top: 40px ;
+
+}
+
+/* nav_bar_style */
+.nav{
+    border: 2px solid black;
+    height: 50px;
+    margin-top: 3px;
+    background-color: rgb(36, 35, 35);
+}
+.nav_link{
+    float: left;
+   /* display: inline-block;*/
+    margin-top: 16px;
+    margin-left: 220px;
+    
+}
+
+/* left_side-bar-style*/
+.left_section{
+    background-color: rgb(98, 170, 26);
+    border: 2px solid black;
+    height: 500px;
+    width: 15%;
+    margin-top: 3px;
+    float: left;
+}
+.left_section .list{
+    margin: 25px 0px 0px 0px;
+    list-style-type: none;
+}
+
+/* mid_section_style*/
+.mid_section{
+    background-color: black;
+    border: 2px solid black;
+    height: 500px;
+    width: 67%;
+    margin-top: 3px;
+    margin-left: 14px;
+    float: left;
+}
+.img1{
+    display: block;
+    float: left;
+    width: 30%;
+    padding: 10px;
+    margin-left: 0.7%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.mid_section img{
+    width: 100%;
+    height: 230px;
+}
+
+.mid_section img:hover{
+    transform: scale(2,2);
+    transition: .3s ;
+    border-radius: 5px;
+}
+
+
+/* right_side-bar-style*/
+.right_section{
+    background-color: rgb(98, 170, 26);
+    border: 2px solid black;
+    height: 500px;
+    width: 15%;
+    margin-top: 3px;
+    margin-left: 5px;
+    float: right;
+}
+.right_section .list1{
+    margin: 25px 0px 0px 30px;
+    list-style-type: none;
+}
+/* footer_style*/
+.footer{
+    border: 2px solid black;
+    height: 100px;
+    margin-top: 510px;
+}
+
+
+
+
